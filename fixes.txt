@@ -1,0 +1,16 @@
+-No he encontrado como acceder a la función que asigna los parámetros a una "reserva", voy a dejar la lógica sin el "estado"*
+-agregar método toString() a com.sgrs.Ciclo [CORREGIDO]
+-crear modelo com.sgrs.Pensum [HECHO]
+-definir model com.sgrs.Pensum [HECHO]
+
+lógica de método de reservación
+def verificarDisponibilidad(){
+	/*lo más importante es comparar "fecha", "hora" y "local"
+	* si esto coincide con otro registro, devuelve mensaje diciendo que no se puede
+	* para ello tengo que hacer una fucion:
+	* buscar por "fecha" primero
+	* siguiente, de todos los posibles resultados, ahora buscar entre ellos por "hora"
+	* siguiente, de todos los posibles resultados, ahora buscar entre ellos por "local"
+	* si no hay una coincidencia, se procede a registrar la reserva, sino, se descarta
+	*/
+}

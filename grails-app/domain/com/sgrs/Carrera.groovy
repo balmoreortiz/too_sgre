@@ -1,13 +1,13 @@
 package com.sgrs
 
-class Local {
+class Carrera {
 
     String name
 
-    static hasMany = [reserva: Reserva]
+    static hasMany = [materia: Materia]
 
     static constraints = {
-        name size: 3..6, blank: false, unique:true
+        name size:5..40, blank:false, unique:true
     }
 
     String toString(){

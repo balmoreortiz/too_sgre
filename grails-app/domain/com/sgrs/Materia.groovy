@@ -6,6 +6,7 @@ class Materia {
     String name
 
     static hasMany = [reserva: Reserva]
+    static belongsTo = [carrera: Carrera, ciclo: Ciclo]
 
     static constraints = {
         codigo size: 6..8, blank: false, unique: true
